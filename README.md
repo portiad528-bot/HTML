@@ -1,16 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!DOCTYPE html><html lang="en">
+<head><link>rel="stylesheet" href="style.css"</link>
 <body>
-    <div class="container">
-        <h1>Welcome to Our Info Page</h1>
-        <p>This website provides important information about our topic. Click the button below to visit TikTok for more content!</p>
-        <a href="https://www.tiktok.com" target="_blank" class="button">Go to TikTok</a>
+  <header>
+    <h2>Kganya Web Designs</h2>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Build Your Digital Future</h1>
+    <p>Clean, modern and affordable websites for small businesses.</p>
+  </section>  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern, responsive and professional websites tailored for your business.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Sites</h3>
+        <p>Showcase your skills, projects and achievements with a clean portfolio.</p>
+      </div>
+      <div class="card">
+        <h3>Business Pages</h3>
+        <p>Boost your brand with custom landing pages and online presence.</p>
+      </div>
     </div>
+  </section>  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I’m Kganya, a passionate web designer building elegant and functional websites. Whether you’re a small business, freelancer, or startup, I’ll help you establish a professional online identity.</p>
+  </section>  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kganya@example.com">kganya@example.com</a></p>
+    <p>WhatsApp: +27 000 000 0000</p>
+  </section>  <footer>
+    <p>&copy; 2025 Kganya Web Designs. All rights reserved.</p>
+  </footer>
 </body>
-</html>  
+</html>
