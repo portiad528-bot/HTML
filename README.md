@@ -23,19 +23,63 @@
         <p>Showcase your skills, projects and achievements with a clean portfolio.</p>
       </div>
       <div class="card">
-        <h3>Business Pages</h3>
-        <p>Boost your brand with custom landing pages and online presence.</p>
+        <h3>Busin<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Design Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Web Design Services</h1>
+    <p>Affordable websites for businesses & individuals</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>I create professional and affordable websites that help small businesses and individuals stand out online. Choose a package that fits your needs and let’s build your online presence.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Packages</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Basic Package</h3>
+        <p>✅ One-page website<br>
+           ✅ Pictures & contact details<br>
+           ✅ WhatsApp link<br>
+           ✅ Touch-ups & updates</p>
+        <p><strong>R290 / month</strong></p>
+      </div>
+      <div class="card">
+        <h3>Premium Package</h3>
+        <p>✅ Multi-page site (Home, Services, Prices)<br>
+           ✅ Custom branding<br>
+           ✅ WhatsApp booking system (JS)<br>
+           ✅ Monthly revamps & support</p>
+        <p><strong>From R600 / month</strong></p>
       </div>
     </div>
-  </section>  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Hello! I’m Kganya, a passionate web designer building elegant and functional websites. Whether you’re a small business, freelancer, or startup, I’ll help you establish a professional online identity.</p>
-  </section>  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:kganya@example.com">kganya@example.com</a></p>
-    <p>WhatsApp: +27 000 000 0000</p>
-  </section>  <footer>
-    <p>&copy; 2025 Kganya Web Designs. All rights reserved.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have questions or ready to get started? Reach out now:</p>
+    <a class="btn" href="https://wa.me/27XXXXXXXXX" target="_blank">Chat on WhatsApp</a>
+    <p>📧 Email: yourname@email.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Web Design Service. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
